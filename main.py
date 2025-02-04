@@ -37,4 +37,5 @@ async def photo_handler(message: Message):
             else:
                 await message.answer("Failed to download the image.")
 
+#Запуск бота
 bot.run_forever()
